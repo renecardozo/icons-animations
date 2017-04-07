@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="components/icons/icons.css">
+  <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+  <script type="text/javascript" src="components/my-header/my-header.js"></script>
+  <script type="text/javascript" src="components/hello-world/hello-world.component.js"></script>
+  <script type="text/javascript" src="components/hello-world/hello-world.controller.js"></script>
+  <script type="text/javascript" src="components/input/input.component.js"></script>
+  <script type="text/javascript" src="components/input/input.controller.js"></script>
+  <script type="text/javascript" src="components/label/label.component.js"></script>
+  <script type="text/javascript" src="components/label/label.controller.js"></script>
+  <script type="text/javascript" src="components/icons/icons.component.js"></script>
+  <script type="text/javascript" src="components/icons/icons.controller.js"></script>
+  <script type="text/javascript" src="components/icons/icons.service.js"></script>
+  <script src="app.js"></script>
+  
+</head>
+<body ng-app="appTestComponent">
+  <my-header></my-header>
+  <hello-world title="this is a message from outside"></hello-world>
+
+  <label-component>
+  </label-component>
+  <input-component></input-component>
+  <br>
+  <br>
+  <br>
+  <icons-component></icons-component>
+</body>
+</html>

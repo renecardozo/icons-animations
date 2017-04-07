@@ -1,0 +1,68 @@
+.circle {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  font-size: 90%;
+  color: #fff;
+  line-height: 17px;
+  text-align: center;
+  background: #263238;
+  font-weight: bold;
+}
+div.circle:hover{
+  cursor: pointer;
+}
+
+.container-icons {
+  position: relative;
+}
+
+.child-circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 18px;
+  text-align: center;
+  background: #263238;
+  font-weight: bold;
+  font-size: 65%;
+}
+
+
+#icon-reply{
+  -ms-transform: translate(2px, -42px); /* IE 9 */
+    -webkit-transform: translate(2px, -42px); /* Safari */
+    transform: translate(2px, -42px);
+}
+#icon-share{
+  -ms-transform: translate(19px, -53px); /* IE 9 */
+    -webkit-transform: translate(19px, -53px); /* Safari */
+    transform: translate(19px, -53px);
+}
+#icon-star{
+  -ms-transform: translate(25px, -52px); /* IE 9 */
+    -webkit-transform: translate(25px, -52px); /* Safari */
+    transform: translate(25px, -52px);
+}
+#icon-pencil{
+  -ms-transform: translate(18px, -52px); /* IE 9 */
+    -webkit-transform: translate(18px, -52px); /* Safari */
+    transform: translate(18px, -52px);
+}
+#icon-trash{
+  -ms-transform: translate(0px, -66px); /* IE 9 */
+    -webkit-transform: translate(0px, -66px); /* Safari */
+    transform: translate(0px, -66px)
+}
+.child-circle:hover{
+  cursor: pointer;
+  z-index: 10;
+}
+
+.container-show-hide {
+  transition: all linear 0.5s;
+}
+.container-show-hide.ng-hide {
+  opacity: 0;
+}
